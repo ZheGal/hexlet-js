@@ -1,1 +1,3 @@
-console.log('Hi, NPM!');
+var _ = require('lodash');
+
+console.log(_.last(['one', 'two']));
